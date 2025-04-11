@@ -1,0 +1,18 @@
+import tensorflow as tf
+import numpy as np
+import matplotlib.pyplot as plt
+import sklearn
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import TfidfTransformer
+from sklearn.preprocessing import LabelEncoder
+
+#Loading Data 
+#A big difference between this and the projects from before
+# is that we are loaiding the data from a URL
+#and using pandas to load the data
+url = "https://archive.ics.uci.edu/ml/machine-learning-databases/00228/smsspamcollection.zip"
+df = pd.read_csv(url, sep="\t",names=["label", "message"])
+df.head(10)
+label_encoder = LabelEncoder()
+
