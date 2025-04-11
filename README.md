@@ -4,53 +4,41 @@ This repository is a group of beginner projects using Tensor Flow. It's primary 
 #Projects 
 1. Hello TensorFlow (Basic Math Ops)
 Goal: Learn how to use TensorFlow to add, multiply, and create constants/tensors.
-
 Skills: Tensor creation, tf.constant, tf.Variable
 
 2. Linear Regression (Predict Housing Prices)
 Goal: Train a linear model to predict house prices based on square footage.
-
 Skills: tf.keras.Sequential, loss functions, optimizers.
 
 3. Handwritten Digit Classifier (MNIST Dataset)
 Goal: Classify digits (0–9) from the MNIST dataset using a dense neural network.
-
 Skills: Dense layers, relu, softmax, one-hot encoding, accuracy evaluation.
 
 4. Image Classification with CNN (Fashion MNIST)
 Goal: Build a convolutional neural network to classify images of clothes.
-
 Skills: Conv2D, MaxPooling2D, Flattening, dropout.
 
 5. Binary Classification (Spam vs. Ham)
 Goal: Use a small text dataset to classify SMS messages as spam or not.
-
 Skills: Text vectorization, binary classification, sigmoid activation.
 
 6. Time Series Forecasting (Stock Prices)
 Goal: Predict future stock prices using past prices.
-
 Skills: LSTM/RNN, time windowing, sequence prediction.
 
 7. Image Generator with GAN (Toy Example)
 Goal: Use a small GAN model to generate synthetic digits or simple patterns.
-
 Skills: Generator/discriminator networks, adversarial training.
 
 8. Transfer Learning (Cats vs. Dogs Classifier)
 Goal: Use a pre-trained model like MobileNet or VGG16 and fine-tune it.
-
 Skills: Feature extraction, frozen layers, custom classification heads.
 
 9. Custom Loss Function (Robust Regression)
 Goal: Train a model using your own loss function (like Huber loss).
-
 Skills: Custom tf.keras.losses.Loss, understanding model.fit internals.
 
 10. Interactive Dashboard with TensorBoard
 Goal: Track training metrics visually with TensorBoard.
-
 Skills: Logging, scalars, histograms, comparing runs.
-
-Definitions : 
 
